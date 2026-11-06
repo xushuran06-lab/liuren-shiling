@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/widget_bg" android:orientation="vertical">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+  <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="六壬 · 时令" android:textColor="#9E4435" android:textSize="14sp"/>
+  <TextView android:id="@+id/widget_refresh" android:layout_width="48dp" android:layout_height="36dp" android:gravity="center" android:text="刷新" android:textColor="#9E4435" android:textSize="13sp" android:contentDescription="刷新起盘信息"/>
+ </LinearLayout>
+ <TextView android:id="@+id/widget_main" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="日干 —　月将 —" android:textColor="#2B302B" android:textSize="23sp" android:maxLines="1" android:ellipsize="end"/>
+ <TextView android:id="@+id/widget_detail" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="日支 — · 占时 — · 旬空 —" android:textColor="#535950" android:textSize="13sp"/>
+ <TextView android:id="@+id/widget_stamp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="北京时间快照 · 点击刷新校时" android:textColor="#62675F" android:textSize="11sp"/>
+</LinearLayout>
