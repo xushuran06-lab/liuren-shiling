@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "apk_bytes": 164734,
+  "sha256": "ac2da826595247289ed1a28717c714a2824c52f06603f7f78b38a9a260a9a3fb",
+  "calendar_assertions": 170,
+  "chart_assertions": 37176,
+  "golden_examples": 24,
+  "classical_book_examples": 10,
+  "basic_charts_checked": 720,
+  "day_general_hour_combinations": 8640,
+  "chart_checks_scope": "structural and rotational invariants plus specified examples; not all 720 charts independently verified",
+  "widget_source_layout_unchanged": true,
+  "new_chart_screen_on_device": "not yet tested",
+  "previous_widget_on_device": "user confirmed working on Xiaomi 17",
+  "min_api": 26,
+  "target_api": 36
+}
